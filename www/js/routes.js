@@ -3430,6 +3430,16 @@ angular.module('app.routes', ['ionicUIRouter'])
     }
   })
 
+  .state('tabsController.aPGARQuickReference', {
+    url: '/page161',
+    views: {
+      'tab7': {
+        templateUrl: 'templates/aPGARQuickReference.html',
+        controller: 'aPGARQuickReferenceCtrl'
+      }
+    }
+  })
+
 $urlRouterProvider.otherwise('/page14')
 
 
